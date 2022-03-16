@@ -1,6 +1,6 @@
-#Tietokantasovellus, harjoitustyö#
+# Tietokantasovellus, harjoitustyö
 
-##Vaatevalitsin##
+## Vaatevalitsin
 
 Sovellus auttaa käyttäjää valitsemaan sopivat vaatteet sään päivän sään mukaan.
 
