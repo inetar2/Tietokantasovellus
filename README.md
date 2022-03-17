@@ -1,6 +1,4 @@
-# Tietokantasovellus, harjoitustyö
-
-## Vaatevalitsin
+# Vaatevalitsin
 
 Sovellus auttaa käyttäjää valitsemaan sopivat vaatteet sään päivän sään mukaan. :sunny: :partly_sunny: :cloud_with_rain: :snowflake:
 
