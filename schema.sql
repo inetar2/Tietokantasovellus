@@ -1,4 +1,4 @@
-CREATE TABLE polls (
+CREATE TABLE poll (
     id SERIAL PRIMARY KEY,
     topic TEXT,
 );
