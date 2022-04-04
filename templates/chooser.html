@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html>
+<form action="/create" method="POST">
+    
+    <h2><strong>Valitse sopivin vaihtoehto</strong> </h2>
+
+    <p>Kerro päivän ylin lämpötila (°C):<br>
+    <input type="number" id="quantity" name="quantity" min="-35" max="45"></p>
+
+    <p>Kerro päivän alin lämpötila (°C):<br>
+    <input type="number" id="quantity" name="quantity" min="-35" max="45"></p>
+
+    <p>Paistaako aurinko?<br>
+    <input type="radio" id="kyllä" name="paistaako_aurinko_kyllä" value="kyllä">
+    <label for="kyllä">Kyllä</label><br>
+    <input type="radio" id="ei" name="paistaako_aurinko_ei" value="ei">
+    <label for="ei">Ei</label><br>
+
+    <p>Tuuleeko?<br>
+    <input type="radio" id="kyllä" name="tuuleeko_kyllä" value="kyllä">
+    <label for="kyllä">Kyllä</label><br>
+    <input type="radio" id="ei" name="tuuleeko_ei" value="ei">
+    <label for="ei">Ei</label><br>
+
+
+    <p>Sataako?<br>
+    <input type="radio" id="kyllä" name="sataako_kyllä" value="kyllä">
+    <label for="kyllä">Kyllä</label><br>
+    <input type="radio" id="ei" name="sataako_ei" value="ei">
+    <label for="ei">Ei</label><br>
+
+    <p>Parhaiten päivän aktiviteettia kuvastaa:</p>
+    <select id="aktiviteetti" name="aktiviteetti">
+      <option value="kevyt">Kevyt (kävely kauppaan tms.)</option>
+      <option value="vaihteleva" selected>Keskiraskas tai vaihteleva</option>
+      <option value="hiki">Hiki tulee (urheilusuoritus)</option>
+    </select>
+    <input type="submit">
+
+
+<input type="submit" value="Katso vastaus">
+</form>
+</html>
