@@ -1,13 +1,11 @@
 <!DOCTYPE html> 
 <html>
  <head>
-<a href="/new.html">Uudestaan</a>
+<a href="chooser.html">Uudestaan</a>
   </head>
 <hr>
-{% for poll in poll %}
 <a href="/poll/{{ poll.id }}">Mene kyselyyn</a> |
-<a href="/result/{{ poll.id }}">Näytä tulokset</a> <br>
+<a href="result/{{ poll.id }}">Näytä tulokset</a> <br>
 <hr>
-{% endfor %}
 
 </html>
